@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- [Delete this comment] This file is the main file for the challenge. For the most part, you should be editing this file. -->
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,17 +22,24 @@
       /* You may write styles inside this <style> tag or within `css/style.css`. */
     </style>
   </head>
-  <body>
-    <!-- Add your site or application content here -->
-    <h1 class="text-5xl text-center font-semibold pt-20">
-      Hello world! Write your content here.
-    </h1>
-
-    <!-- Sarah Dole
-      @sarahdole
-      I've been searching for high-quality abstract images for my design projects, 
-      and I'm thrilled to have found this platform. The variety and depth of creativity are astounding! 
-    -->
+  <body class="flex justify-center items-start pt-[200px]">
+    <article class="w-[340px] flex flex-col gap-4 bg-white p-6 rounded-lg">
+      <!-- top row -->
+      <header class="flex items-center self-stretch gap-4">
+        <img class='h-12 w-12' src="./img/profile-thumbnail.png" alt="Profile Image">
+        <div class="flex flex-col gap-px grow">
+          <h1 class="font-semibold text-lg text-justify text-neutral-900">Sarah Dole</h1>
+          <p class="font-normal text-sm text-neutral-600">@sarahdole</p>
+        </div>
+      </header>
+      <blockquote class="font-normal text-base text-neutral-600">
+        <p>I've been searching for high-quality abstract images for my design projects,
+      and I'm thrilled to have found this platform. The variety and depth of creativity are astounding!</p>
+    </blockquote>
+    <footer>
+      <cite class="sr-only">Sarah Dole</cite>
+    </footer>
+    </article>
 
     <!-- Attribute this challenge to yourself! -->
     <div class="credits" data-gfe-screenshot-exclude="true">
@@ -44,9 +50,9 @@
         >GreatFrontEnd Projects</a
       >. Built by
       <a
-        href="https://www.greatfrontend.com/projects/u/username"
+        href="https://www.greatfrontend.com/projects/u/robcrock"
         target="_blank"
-        >Your Name</a
+        >Robert Crocker</a
       >.
     </div>
     <script src="js/index.js"></script>

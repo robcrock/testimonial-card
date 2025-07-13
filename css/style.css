@@ -1,5 +1,11 @@
 /* Put any custom CSS styles here.  */
 /* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+:root {
+  --gray-50:  #f9fafb;
+  --gray-300: #d2d6db;
+  --gray-900: #111827;
+}
+
 body {
   margin: 0;
   font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
@@ -10,6 +16,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+
+  background-image: linear-gradient(to bottom, var(--gray-50), var(--gray-300));
 }
 
 * {
